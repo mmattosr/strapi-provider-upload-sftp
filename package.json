@@ -1,0 +1,42 @@
+{
+  "name": "strapi-provider-upload-sftp",
+  "version": "3.0.0-alpha.25.2",
+  "description": "SFTP provider for Strapi CMS file upload.",
+  "strapi": {
+    "isProvider": true
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmattosr/strapi-provider-upload-sftp.git"
+  },
+  "keywords": [
+    "sftp",
+    "strapi",
+    "provider",
+    "file upload"
+  ],
+  "author": {
+    "email": "mattos_2009@hotmail.com",
+    "name": "Marcelo Mattos",
+    "url": "https://github.com/mmattosr"
+  },
+  "bugs": {
+    "url": "https://github.com/mmattosr/strapi-provider-upload-sftp/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/mmattosr/strapi-provider-upload-sftp#readme",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0"
+  }
+}

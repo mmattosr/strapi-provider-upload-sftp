@@ -29,14 +29,24 @@
   },
   "license": "MIT",
   "homepage": "https://github.com/mmattosr/strapi-provider-upload-sftp#readme",
-  "scripts": {
-    "test": "jest"
-  },
   "devDependencies": {
+    "dotenv": "^8.0.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jest": "^22.5.1",
     "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.13.0"
+    "eslint-plugin-react": "^7.13.0",
+    "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "ssh2-sftp-client": "^2.5.0"
+  },
+  "scripts": {
+    "test": "jest --detectOpenHandles --forceExit --setupFiles dotenv/config",
+    "test:watch": "jest --detectOpenHandles --forceExit --setupFiles dotenv/config --watch"
+  },
+  "jest": {
+    "automock": true
   }
 }

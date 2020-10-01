@@ -39,6 +39,17 @@ File you are trying to upload:
 The file will be uploaded as file(2).jpg
 ```
 
+### Example using environment variables or .env
+```
+# example environment variables, each env if avalable will override entries from web-ui and db in /plugins/upload/configurations(therfore in the ui config, setings can be replaced with dummy data)
+SFTP_UPLOAD_HOST=example.com
+SFTP_UPLOAD_PORT=22
+SFTP_UPLOAD_USER=userName
+SFTP_UPLOAD_PASSWORD=yourSshPassword
+SFTP_UPLOAD_BASEURL=https://the-url-to-upload-dir-including-slash-at-end/
+SFTP_UPLOAD_BASEPATH=/home/you/public_html/path-to-sftp-dir
+```
+
 
 ## License
 

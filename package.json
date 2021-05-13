@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-sftp",
-  "version": "3.0.0-alpha.25.2",
+  "version": "3.0.1",
   "description": "SFTP provider for Strapi CMS file upload.",
   "strapi": {
     "isProvider": true

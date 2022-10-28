@@ -40,7 +40,7 @@
     "jest": "^24.8.0"
   },
   "dependencies": {
-    "ssh2-sftp-client": "^2.5.0"
+    "ssh2-sftp-client": "^9.0.4"
   },
   "scripts": {
     "test": "jest --detectOpenHandles --forceExit --setupFiles dotenv/config",
